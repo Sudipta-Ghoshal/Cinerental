@@ -14,17 +14,17 @@ export default function Header() {
 
                 <ul className="flex items-center space-x-5">
                     <li>
-                        <a className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+                        <a className="bg-primary/20 dark:bg-primary/7 rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
                             <img src={Ring} width="24" height="24" alt="Ring" />
                         </a>
                     </li>
                     <li>
-                        <a className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+                        <a className="bg-primary/20 dark:bg-primary/7 rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
                             <img src={Moon} width="24" height="24" alt="Moon" />
                         </a>
                     </li>
                     <li>
-                        <a className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+                        <a className="bg-primary/20 dark:bg-primary/7 rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
                             <img src={Cart} width="24" height="24" alt="Cart" />
                         </a>
                     </li>
