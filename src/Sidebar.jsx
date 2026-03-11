@@ -15,25 +15,25 @@ export default function Sidebar() {
                     </a>
                 </li>
                 <li>
-                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg text-slate-700 transition-colors hover:bg-black/5 dark:text-slate-300 dark:hover:bg-white/5" href="#">
                         <img src={NewRelease} width="24" height="24" alt="NewRelease" />
                         <span>New Releases</span>
                     </a>
                 </li>
                 <li>
-                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg text-slate-700 transition-colors hover:bg-black/5 dark:text-slate-300 dark:hover:bg-white/5" href="#">
                         <img src={CommingSoon} width="24" height="24" alt="CommingSoon" />
                         <span>Coming Soon</span>
                     </a>
                 </li>
                 <li>
-                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg text-slate-700 transition-colors hover:bg-black/5 dark:text-slate-300 dark:hover:bg-white/5" href="#">
                         <img src={Favorite} width="24" height="24" alt="Favorite" />
                         <span>Favourites</span>
                     </a>
                 </li>
                 <li>
-                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+                    <a className="flex items-center space-x-2 px-5 py-3.5 rounded-lg text-slate-700 transition-colors hover:bg-black/5 dark:text-slate-300 dark:hover:bg-white/5" href="#">
                         <img src={WatchLater} width="24" height="24" alt="WatchLater" />
                         <span>Watch Later</span>
                     </a>

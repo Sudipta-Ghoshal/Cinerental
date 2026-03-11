@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @utility container {
     padding-inline: 10px;
@@ -8,4 +9,10 @@
 
 @theme {
     --color-primary: #00d991;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+    }
 }
